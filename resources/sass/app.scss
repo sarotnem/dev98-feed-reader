@@ -1,0 +1,35 @@
+body {
+    background-color: #eceff1;
+}
+
+.card {
+    &:hover {
+        transform: none !important;
+        -webkit-transform: none !important;
+        -ms-transform: none !important;
+        -moz-transform: none !important;
+    }
+
+    .card-title {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    pre {
+        background: #403D38;
+        padding: 13px;
+        color: #fff;
+    }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
+}
